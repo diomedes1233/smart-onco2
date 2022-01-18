@@ -1,0 +1,63 @@
+@import "_variables";
+
+.containerListRoles1 {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-family: $titulos;
+
+  .titleBtnNuevo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+    .btnNuevo {
+      width: 70%;
+      height: 40px;
+      background-color: $verde-menta;
+      border: none;
+      color: $azul-color;
+      font-size: 18px;
+      cursor: pointer;
+      border-radius: 10px;
+      margin-top: 30px;
+      margin-right: 60px;
+    }
+
+    h2 {
+      margin-top: 30px;
+      margin-left: 42%;
+    }
+  }
+
+  table {
+    font-family: $titulos;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    font-family: $parrafos;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+}
+
+.nameTable {
+  display: flex;
+  text-align: left;
+}
+
+.iconTable1 {
+  color: $verde-menta;
+}
+
+.iconTable2 {
+  color: red;
+}

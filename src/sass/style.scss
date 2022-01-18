@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* import components*/
+@import "headerlanding";
+@import "headerAdmin";
+@import "headerIconHome";
+@import "footer";
+@import "logo";
+@import "loginHeader";
+@import "loginBody";
+@import "landingBody";
+@import "listRoles";
+@import "btnIngresar";
+@import "btnNuevo";
+@import "search";
+@import "menuAdmin";
+@import "adminPage";
+@import "userTable";
+@import "patientsTable";
+@import "quotesDay";
+@import "agendaDay";
