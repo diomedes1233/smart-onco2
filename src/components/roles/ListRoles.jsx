@@ -1,6 +1,7 @@
 import React from 'react'
+import BtnNuevo from '../btn/BtnNuevo'
 import Footer from '../footer/Footer'
-import BtnNuevo from '../header/btn/BtnNuevo'
+
 
 
 
@@ -18,38 +19,34 @@ const ListRoles = () => {
           <tbody>
             <tr>
               <th>ID</th>
-              <th>Nombre Completo</th>
-              <th>Correo/Usuario</th>
-              <th>Telefono</th>
-              <th>Entidad</th>
+              <th>Administrador</th>
+              <th>Agregado</th>
+              <th>Usuarios</th>
               <th>Editar</th>
               <th>Eliminar</th>
 
             </tr>
             <tr>
               <td>1</td>
-              <td className='nameTable'>Carlos Peres Acosta</td>
-              <td>carlos203@solsalud.com</td>
-              <td>311756345</td>
-              <td>Solsalud</td>
+              <td className='nameTable'>Especialista</td>
+              <td>05-27-2022</td>
+              <td>1 <i class="fas fa-eye"></i></td>
               <td className='iconTable1'><i class="fas fa-edit"></i></td>
               <td className='iconTable2'><i class="fas fa-trash-alt"></i></td>
             </tr>
             <tr>
               <td>2</td>
-              <td className='nameTable'>Andrea Lopez</td>
-              <td>Alopez@colsalud.com</td>
-              <td>315786245</td>
-              <td>Colsalud</td>
+              <td className='nameTable'>Proveedor</td>
+              <td>05-27-2022</td>
+              <td>1 <i class="fas fa-eye"></i></td>
               <td className='iconTable1'><i class="fas fa-edit"></i></td>
               <td className='iconTable2'><i class="fas fa-trash-alt"></i></td>
             </tr>
             <tr>
               <td>3</td>
-              <td className='nameTable'>Jhon Jairo Medina</td>
-              <td>JMedina@rxdiagnostic.com</td>
-              <td>300956548</td>
-              <td>RXDiagnósticos</td>
+              <td className='nameTable'>Cliente</td>
+              <td>05-27-2022</td>
+              <td>1 <i class="fas fa-eye"></i></td>
               <td className='iconTable1'><i class="fas fa-edit"></i></td>
               <td className='iconTable2'><i class="fas fa-trash-alt"></i></td>
             </tr>

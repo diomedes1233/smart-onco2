@@ -1,12 +1,15 @@
 @import "_variables";
 
+.containerLandinBoby {
+  font-family: $parrafos;
+}
+
 .containerTextInitial {
   width: 80%;
   display: flex;
   margin: auto;
   flex-direction: column;
   margin-top: 50px;
-  font-family: $parrafos;
   font-size: 18px;
   text-align: justify;
 
@@ -18,10 +21,11 @@
     justify-content: flex-start;
     align-items: flex-start;
     margin-bottom: 20px;
+    font-size: 18px;
   }
 
   .bar {
-    width: 230px;
+    width: 165px;
     height: 10px;
     background-color: $verde-menta;
   }
@@ -50,9 +54,10 @@
   margin-bottom: 50px;
   font-family: $titulos;
   margin-top: -150px;
+  font-size: 18px;
 
   .bar2 {
-    width: 230px;
+    width: 135px;
     height: 10px;
     background-color: $verde-menta;
   }
@@ -88,6 +93,10 @@
 }
 
 @media (min-width: 1024px) {
+  .containerLandinBoby {
+    font-family: $parrafos;
+  }
+
   .containerTextInitial {
     width: 90%;
     margin-bottom: 30px;
@@ -110,10 +119,6 @@
         margin-top: -30%;
         visibility: inherit;
       }
-    }
-
-    .bar {
-      width: 252px;
     }
   }
 
@@ -146,6 +151,10 @@
 
 /* Medium (md) */
 @media (min-width: 768px) {
+  .containerLandinBoby {
+    font-family: $parrafos;
+  }
+
   .containerTextInitial {
     width: 90%;
     margin-bottom: 30px;
@@ -168,10 +177,6 @@
         margin-top: -30%;
         visibility: inherit;
       }
-    }
-
-    .bar {
-      width: 195px;
     }
   }
 

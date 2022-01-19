@@ -1,5 +1,6 @@
 import React from 'react'
-import BtnIngresar from './BtnIngresar'
+import BtnIngresar from '../btn/BtnIngresar'
+
 
 
 const MenuHeaderLandig = () => {
@@ -19,7 +20,7 @@ const MenuHeaderLandig = () => {
 
 
             <BtnIngresar />
-        </div>
+        </div >
 
     )
 }

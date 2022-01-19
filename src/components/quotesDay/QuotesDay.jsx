@@ -1,6 +1,6 @@
 import React from 'react'
+import BtnNuevo from '../btn/BtnNuevo'
 import Footer from '../footer/Footer'
-import BtnNuevo from '../header/btn/BtnNuevo'
 import HeaderIconHome from '../header/HeaderIconHome'
 import Search from '../search/Search'
 

@@ -41,14 +41,11 @@
 
         a {
           color: #fff;
-          text-decoration: none;
         }
 
         a:hover {
           color: $verde-menta;
-          background-color: #000;
-          border-radius: 5px;
-          padding: 5px 10px;
+          text-decoration-line: underline;
         }
       }
       //--------------------------

@@ -1,0 +1,21 @@
+.btnSave {
+  width: 100%;
+  padding: 5px 10px;
+  background-color: $amarillo;
+  border: none;
+  color: $azul-color;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: $titulos;
+}
+
+.btnsCancellSave {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  padding-right: 30px;
+  margin-bottom: 50px;
+}

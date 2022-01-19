@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AdminPage from '../pages/AdminPage'
 import AgendaDayPage from '../pages/AgendaDayPage';
+import ConfirmationDatingPage from '../pages/ConfirmationDatingPage';
 import LandigPage from '../pages/LandinPage'
 import LoginPage from '../pages/LoginPage'
 import PatientsPage from '../pages/PatientsPage';
@@ -48,6 +49,10 @@ const Ruutes = () => {
 
                     <Route exact path="/agendadeldia"
                         element={<AgendaDayPage />}>
+                    </Route>
+
+                    <Route exact path="/confirmacioncitas"
+                        element={<ConfirmationDatingPage />}>
                     </Route>
 
 

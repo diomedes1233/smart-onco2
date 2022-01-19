@@ -33,46 +33,49 @@
       .textlogin {
         display: flex;
         flex-direction: row;
-        width: 59%;
+        width: 71%;
         margin-right: 14px;
         margin-bottom: -28px;
+        font-family: $parrafos;
       }
 
       input {
         margin: 8px;
         padding: 5px;
-      }
-
-      .button {
-        background-color: $verde-menta;
-        border: none;
-        color: #000;
-        padding: 5px 60px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 14px;
-        margin: 4px 2px;
-        cursor: pointer;
-        border-radius: 15px;
-        font-weight: 500;
-        opacity: 0.99;
-      }
-
-      ::placeholder {
-        display: block;
-        padding-left: 1px;
-        opacity: 0.5;
-      }
-
-      p {
-        font-weight: 500;
-        font-size: 14px;
+        border: solid 1px;
+        opacity: 1;
       }
     }
-    .logo {
-      width: 80%;
+
+    .button {
+      background-color: $verde-menta;
+      border: none;
+      color: #000;
+      padding: 5px 60px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 15px;
+      font-weight: 500;
+      opacity: 0.99;
     }
+
+    ::placeholder {
+      display: block;
+      padding-left: 1px;
+      opacity: 0.5;
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 14px;
+    }
+  }
+  .logo {
+    width: 80%;
   }
 }
 

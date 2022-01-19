@@ -31,21 +31,21 @@ const AgendaDay = () => {
                             <td className='nameTable'>Samuel Acosta</td>
                             <td>Oncología</td>
                             <td>301</td>
-                            <td>Disponible</td>
+                            <td className='available'>Disponible</td>
                         </tr>
                         <tr>
                             <td>8:00</td>
                             <td className='nameTable'>Silverio Sanjuan</td>
                             <td>Oncología</td>
                             <td>204</td>
-                            <td>Asignada</td>
+                            <td className='assigned'>Asignada</td>
                         </tr>
                         <tr>
                             <td>9:00</td>
                             <td className='nameTable'>Jhon Jairo Medina</td>
                             <td>Oncología</td>
                             <td>302</td>
-                            <td>Asignada</td>
+                            <td className='assigned'>Asignada</td>
 
                         </tr>
 
@@ -54,7 +54,7 @@ const AgendaDay = () => {
                             <td className='nameTable'>Ana María Soto</td>
                             <td>Oncología</td>
                             <td>304</td>
-                            <td>Asignada</td>
+                            <td className='assigned'>Asignada</td>
 
                         </tr>
 

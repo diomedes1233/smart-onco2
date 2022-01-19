@@ -1,7 +1,7 @@
 import React from 'react';
-import BtnIngresar from './BtnIngresar';
+import BtnIngresar from '../btn/BtnIngresar'
 import Logo from './Logo';
-import MenuHeaderLandig from './MenuHeaderLandig';
+import MenuHeaderLandig from './MenuHeaderLandig'
 
 
 

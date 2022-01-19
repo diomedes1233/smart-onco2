@@ -1,6 +1,7 @@
 import React from 'react'
+import BtnNuevo from '../btn/BtnNuevo'
 import Footer from '../footer/Footer'
-import BtnNuevo from '../header/btn/BtnNuevo'
+
 import HeaderIconHome from '../header/HeaderIconHome'
 import Search from '../search/Search'
 
@@ -9,15 +10,15 @@ const UserTable = () => {
     <div >
       <HeaderIconHome />
 
-      <div className='usuarioTable'>
+      <div className='userTable'>
 
         <div className='titleBtnNuevo'>
           <Search />
-          <h2>Usuarios</h2>
+          <h1>Usuarios</h1>
           <BtnNuevo />
         </div>
 
-        <table>
+        <table >
           <tbody>
 
             <tr>

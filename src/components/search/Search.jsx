@@ -6,7 +6,7 @@ const Search = () => {
             <input type='text' placeholder='Buscar'></input>
 
             <i class="fas fa-search"></i>
-            <p>Buscar</p>
+
         </div>
     )
 }

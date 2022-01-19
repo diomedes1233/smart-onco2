@@ -11,27 +11,19 @@
 
   i {
     display: flex;
-    width: 30px;
-    height: 31px;
+    width: 31px;
+    height: 33px;
     background-color: $azul-color;
     border: solid 2px;
     border-color: $verde-menta;
     justify-content: center;
     align-items: center;
-    margin-top: -2px;
+    margin-top: -3px;
     color: $verde-menta;
+    margin-right: -30px;
   }
 
   input {
     padding-left: 10px;
-  }
-  p {
-    padding: 0 10px;
-    height: 31px;
-    color: $verde-menta;
-    border: solid 2px;
-    margin-top: -2px;
-    margin-right: -2px;
-    background-color: $azul-color;
   }
 }

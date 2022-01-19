@@ -65,14 +65,12 @@
 
 .headerlanding .MenuLogoBtn .navBtnContainer .navcontainer a {
   color: #fff;
-  text-decoration: none;
 }
 
 .headerlanding .MenuLogoBtn .navBtnContainer .navcontainer a:hover {
   color: #10FFCA;
-  background-color: #000;
-  border-radius: 5px;
-  padding: 5px 10px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
 
 @media (min-width: 1024px) {
@@ -186,15 +184,15 @@
   display: flex;
   margin-right: 20px;
   gap: 5px;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .headerIconHomeContainer .iconHomeContainer .containerHomeInicio i {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .headerIconHomeContainer .iconHomeContainer .containerHomeInicio p {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .headerIconHomeContainer .iconHomeContainer .logo {
@@ -203,17 +201,18 @@
 }
 
 .headerIconHomeContainer .iconHomeContainer h3 {
-  margin-right: 30px;
+  margin-right: 40px;
+  font-size: 18px;
 }
 
 @media (min-width: 1024px) {
-  .containerHomeInicio i {
+  .headerIconHomeContainer .containerHomeInicio i {
     font-size: 40px;
   }
 }
 
 @media (min-width: 768px) {
-  i {
+  .headerIconHomeContainer i {
     font-size: 22px;
   }
 }
@@ -351,17 +350,20 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  width: 59%;
+  width: 71%;
   margin-right: 14px;
   margin-bottom: -28px;
+  font-family: "Montserrat";
 }
 
 .loginfondo .containerLogoLoguinBody .containerLoginInput input {
   margin: 8px;
   padding: 5px;
+  border: solid 1px;
+  opacity: 1;
 }
 
-.loginfondo .containerLogoLoguinBody .containerLoginInput .button {
+.loginfondo .containerLogoLoguinBody .button {
   background-color: #10FFCA;
   border: none;
   color: #000;
@@ -377,36 +379,36 @@
   opacity: 0.99;
 }
 
-.loginfondo .containerLogoLoguinBody .containerLoginInput ::-webkit-input-placeholder {
+.loginfondo .containerLogoLoguinBody ::-webkit-input-placeholder {
   display: block;
   padding-left: 1px;
   opacity: 0.5;
 }
 
-.loginfondo .containerLogoLoguinBody .containerLoginInput :-ms-input-placeholder {
+.loginfondo .containerLogoLoguinBody :-ms-input-placeholder {
   display: block;
   padding-left: 1px;
   opacity: 0.5;
 }
 
-.loginfondo .containerLogoLoguinBody .containerLoginInput ::-ms-input-placeholder {
+.loginfondo .containerLogoLoguinBody ::-ms-input-placeholder {
   display: block;
   padding-left: 1px;
   opacity: 0.5;
 }
 
-.loginfondo .containerLogoLoguinBody .containerLoginInput ::placeholder {
+.loginfondo .containerLogoLoguinBody ::placeholder {
   display: block;
   padding-left: 1px;
   opacity: 0.5;
 }
 
-.loginfondo .containerLogoLoguinBody .containerLoginInput p {
+.loginfondo .containerLogoLoguinBody p {
   font-weight: 500;
   font-size: 14px;
 }
 
-.loginfondo .containerLogoLoguinBody .logo {
+.loginfondo .logo {
   width: 80%;
 }
 
@@ -438,6 +440,10 @@
   }
 }
 
+.containerLandinBoby {
+  font-family: "Montserrat";
+}
+
 .containerTextInitial {
   width: 80%;
   display: -webkit-box;
@@ -449,7 +455,6 @@
       -ms-flex-direction: column;
           flex-direction: column;
   margin-top: 50px;
-  font-family: "Montserrat";
   font-size: 18px;
   text-align: justify;
 }
@@ -471,10 +476,11 @@
       -ms-flex-align: start;
           align-items: flex-start;
   margin-bottom: 20px;
+  font-size: 18px;
 }
 
 .containerTextInitial .bar {
-  width: 230px;
+  width: 165px;
   height: 10px;
   background-color: #10FFCA;
 }
@@ -511,10 +517,11 @@
   margin-bottom: 50px;
   font-family: "Open Sans";
   margin-top: -150px;
+  font-size: 18px;
 }
 
 .sudtitle2 .bar2 {
-  width: 230px;
+  width: 135px;
   height: 10px;
   background-color: #10FFCA;
 }
@@ -563,6 +570,9 @@
 }
 
 @media (min-width: 1024px) {
+  .containerLandinBoby {
+    font-family: "Montserrat";
+  }
   .containerTextInitial {
     width: 90%;
     margin-bottom: 30px;
@@ -587,9 +597,6 @@
     width: 300px;
     margin-top: -30%;
     visibility: inherit;
-  }
-  .containerTextInitial .bar {
-    width: 252px;
   }
   .sudtitle2 {
     margin-top: 50px;
@@ -630,6 +637,9 @@
 
 /* Medium (md) */
 @media (min-width: 768px) {
+  .containerLandinBoby {
+    font-family: "Montserrat";
+  }
   .containerTextInitial {
     width: 90%;
     margin-bottom: 30px;
@@ -654,9 +664,6 @@
     width: 300px;
     margin-top: -30%;
     visibility: inherit;
-  }
-  .containerTextInitial .bar {
-    width: 195px;
   }
   .sudtitle2 {
     margin-top: 50px;
@@ -801,6 +808,44 @@
   font-family: "Open Sans";
 }
 
+.btncancell {
+  width: 100%;
+  padding: 5px 10px;
+  background-color: #10FFCA;
+  border: none;
+  color: #2F455C;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: "Open Sans";
+}
+
+.btnSave {
+  width: 100%;
+  padding: 5px 10px;
+  background-color: #FFA912;
+  border: none;
+  color: #2F455C;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: "Open Sans";
+}
+
+.btnsCancellSave {
+  width: 100%;
+  height: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 30px;
+  padding-right: 30px;
+  margin-bottom: 50px;
+}
+
 .searchContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -816,8 +861,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 30px;
-  height: 31px;
+  width: 31px;
+  height: 33px;
   background-color: #2F455C;
   border: solid 2px;
   border-color: #10FFCA;
@@ -827,22 +872,13 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: -2px;
+  margin-top: -3px;
   color: #10FFCA;
+  margin-right: -30px;
 }
 
 .searchContainer input {
   padding-left: 10px;
-}
-
-.searchContainer p {
-  padding: 0 10px;
-  height: 31px;
-  color: #10FFCA;
-  border: solid 2px;
-  margin-top: -2px;
-  margin-right: -2px;
-  background-color: #2F455C;
 }
 
 .adminPageContainer {
@@ -1110,18 +1146,16 @@
   height: auto;
 }
 
-.usuarioTable {
+.userTable {
   max-width: 100%;
   margin-top: 30px;
   margin-bottom: 40px;
   overflow: scroll;
-  display: block;
-  height: 60vh;
   /* Large (lg) */
   /* Medium (md) */
 }
 
-.usuarioTable .titleBtnNuevo {
+.userTable .titleBtnNuevo {
   width: 100%;
   margin-bottom: 40px;
   display: -webkit-box;
@@ -1139,41 +1173,45 @@
   font-size: 14px;
 }
 
-.usuarioTable table {
+.userTable .titleBtnNuevo h1 {
+  font-size: 20px;
+}
+
+.userTable table {
   font-family: "Open Sans";
   border-collapse: collapse;
   width: 100%;
-  margin-left: 30px;
 }
 
-.usuarioTable td,
-.usuarioTable th {
+.userTable td,
+.userTable th {
   text-align: center;
   padding: 8px;
   font-family: "Montserrat";
 }
 
-.usuarioTable tr:nth-child(even) {
+.userTable tr:nth-child(even) {
   background-color: #dddddd;
 }
 
-.usuarioTable .nameTable {
+.userTable .nameTable {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   text-align: left;
+  font-family: "Montserrat";
 }
 
-.usuarioTable .iconTable1 {
+.userTable .iconTable1 {
   color: #10FFCA;
 }
 
-.usuarioTable .iconTable2 {
+.userTable .iconTable2 {
   color: red;
 }
 
 @media (min-width: 1024px) {
-  .usuarioTable .titleBtnNuevo {
+  .userTable .titleBtnNuevo {
     width: 100%;
     margin-bottom: 40px;
     display: -webkit-box;
@@ -1316,16 +1354,50 @@
   margin-bottom: 40px;
 }
 
-.agendaDayTable .titleBtnNuevo {
-  width: 100%;
-  margin-bottom: 40px;
+.agendaDayTable h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-family: "Open Sans";
+  padding: 30px;
+  margin-left: 30px;
+}
+
+.agendaDayTable .available {
+  width: 100px;
+  height: 30px;
+  background-color: chartreuse;
+  border-radius: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 25%;
+}
+
+.agendaDayTable .assigned {
+  width: 97px;
+  height: 27px;
+  background-color: #FFA912;
+  border-radius: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 26%;
+  border: none;
 }
 
 .agendaDayTable table {
@@ -1336,9 +1408,8 @@
 
 .agendaDayTable td,
 .agendaDayTable th {
-  border: 1px solid #dddddd;
   text-align: center;
-  padding: 8px;
+  padding: 10px;
   font-family: "Montserrat";
 }
 
@@ -1346,14 +1417,92 @@
   background-color: #dddddd;
 }
 
-.nameTable {
+.agendaDayTable .nameTable {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   text-align: left;
 }
 
-.iconarChive {
+.agendaDayTable .iconarChive {
   color: #000;
+}
+
+.confirmationDating {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  overflow: scroll;
+  /* Large (lg) */
+  /* Medium (md) */
+}
+
+.confirmationDating .titleBtnNuevo {
+  width: 100%;
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 100px;
+  font-family: "Open Sans";
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.confirmationDating .titleBtnNuevo h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+}
+
+.confirmationDating table {
+  font-family: "Open Sans";
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.confirmationDating td,
+.confirmationDating th {
+  text-align: center;
+  padding: 8px;
+  font-family: "Montserrat";
+  text-align: left;
+  border: solid 1px;
+}
+
+.confirmationDating tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.confirmationDating .textColum2 {
+  text-align: left;
+}
+
+.confirmationDating .iconTable1 {
+  color: #10FFCA;
+}
+
+.confirmationDating .iconTable2 {
+  color: red;
+}
+
+@media (min-width: 1024px) {
+  .confirmationDating .titleBtnNuevo {
+    width: 100%;
+    margin-bottom: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Open Sans";
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */

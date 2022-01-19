@@ -20,7 +20,7 @@ const LoginBody = () => {
                     type="pasword"
                     placeholder='Contraseña'
                 />
-                <p> <input type="checkbox" /> ¿Olvidaste tu contraseña?</p>
+                <p>¿Olvidaste tu contraseña?</p>
 
                 <button className='button' type="submit" name="button">LOGIN</button>
             </form>
