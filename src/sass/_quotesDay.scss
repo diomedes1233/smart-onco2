@@ -7,12 +7,12 @@
 
   .titleBtnNuevo {
     width: 100%;
-    margin-bottom: 40px;
     display: flex;
     justify-content: space-between;
     font-family: $titulos;
 
     h2 {
+      margin-top: -40px;
       margin-right: 110px;
     }
   }

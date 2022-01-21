@@ -21,17 +21,12 @@
       margin-left: 30px;
 
       i {
-        font-size: 20px;
+        font-size: 18px;
       }
 
       p {
-        font-size: 16px;
+        font-size: 14px;
       }
-    }
-
-    .logo {
-      width: 70%;
-      margin-left: -25px;
     }
 
     h3 {
@@ -41,16 +36,22 @@
   }
 
   @media (min-width: 1024px) {
-    .containerHomeInicio {
-      i {
-        font-size: 40px;
-      }
+    i {
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 16px;
     }
   }
 
   @media (min-width: 768px) {
     i {
       font-size: 22px;
+    }
+
+    p {
+      font-size: 16px;
     }
   }
 }

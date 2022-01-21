@@ -5,6 +5,9 @@ import AgendaDayPage from '../pages/AgendaDayPage';
 import ConfirmationDatingPage from '../pages/ConfirmationDatingPage';
 import LandigPage from '../pages/LandinPage'
 import LoginPage from '../pages/LoginPage'
+import NewPacientpage from '../pages/NewPacientpage';
+import NewRolepage from '../pages/NewRolepage';
+import NewUserPage from '../pages/NewUserPage';
 import PatientsPage from '../pages/PatientsPage';
 import QuotesDaypage from '../pages/QuotesDaypage';
 import Rolespage from '../pages/Rolespage'
@@ -43,16 +46,28 @@ const Ruutes = () => {
                         element={<PatientsPage />}>
                     </Route>
 
-                    <Route exact path="/citasdeldia"
+                    <Route exact path="/citasDelDia"
                         element={<QuotesDaypage />}>
                     </Route>
 
-                    <Route exact path="/agendadeldia"
+                    <Route exact path="/agendaDelDia"
                         element={<AgendaDayPage />}>
                     </Route>
 
-                    <Route exact path="/confirmacioncitas"
+                    <Route exact path="/confirmacionCitas"
                         element={<ConfirmationDatingPage />}>
+                    </Route>
+
+                    <Route exact path="/nuevoRol"
+                        element={<NewRolepage />}>
+                    </Route>
+
+                    <Route exact path="/nuevoUsuario"
+                        element={<NewUserPage />}>
+                    </Route>
+
+                    <Route exact path="/nuevoPaciente"
+                        element={<NewPacientpage />}>
                     </Route>
 
 

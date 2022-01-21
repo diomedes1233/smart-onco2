@@ -10,7 +10,6 @@ const HeaderIconHome = () => {
                     <i class="fas fa-home"></i>
                     <p>Inicio</p>
                 </div>
-
                 <Logo />
                 <h3>x</h3>
             </div>

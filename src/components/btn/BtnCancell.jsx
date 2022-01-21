@@ -2,7 +2,7 @@ import React from 'react';
 
 const BtnCancell = () => {
     return <div>
-        <div>
+        <div className='containerBtnCancell'>
             <button className='btncancell'>Cancelar</button>
         </div>
     </div>;
